@@ -1,0 +1,66 @@
+.mainbg
+{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+}
+div.headerlayout
+{
+  width : 100%;
+  height : 100px;
+  top : 0;
+  left : 0;
+  background-color: white;
+  border : 1px black solid;
+  position : absolute;
+}
+div.mainlayout
+{
+    display: flex;
+    flex-direction : row;
+    align-items: center;
+    height: 800px;
+    z-index: 1;
+}
+div.leftlayout
+{
+  display:block;
+  width : 200px;
+  height : 100%;
+  background-color: white;
+  border : 1px black solid;
+}
+div.centerlayout
+{
+  display:block;
+  background-color: white;
+  width : 800px;
+  height : 100%;
+  border : 1px black solid;
+  z-index: 1;
+}
+div.rightlayout
+{
+  display:block;
+  width : 200px;
+  height : 100%;
+  background-color: white;
+  border : 1px black solid;
+}
+div.footerlayout
+{
+  width : 100%;
+  height : 100px;
+  background-color : white;
+  border : 1px black solid;
+  position : fixed;
+  bottom : 0;
+}
